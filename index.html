@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Grocery Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Online Grocery Store</h1>
+  </header>
+  <main>
+    <section class="product">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <h2>Apple</h2>
+      <p>Fresh apples, perfect for snacks or baking.</p>
+      <p>$1.99 per lb</p>
+      <button onclick="addToCart('Apple', 1.99)">Add to Cart</button>
+    </section>
+    <section class="product">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <h2>Banana</h2>
+      <p>Delicious bananas, rich in potassium.</p>
+      <p>$0.49 each</p>
+      <button onclick="addToCart('Banana', 0.49)">Add to Cart</button>
+    </section>
+    <section class="product">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <h2>Carrot</h2>
+      <p>Organic carrots, great for salads or cooking.</p>
+      <p>$0.79 per lb</p>
+      <button onclick="addToCart('Carrot', 0.79)">Add to Cart</button>
+    </section>
+    <!-- Additional grocery items -->
+    <section class="product">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <h2>Orange</h2>
+      <p>Juicy oranges, packed with vitamin C.</p>
+      <p>$0.69 each</p>
+      <button onclick="addToCart('Orange', 0.69)">Add to Cart</button>
+    </section>
+    <section class="product">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <h2>Grapes</h2>
+      <p>Sweet grapes, perfect for snacking.</p>
+      <p>$2.49 per lb</p>
+      <button onclick="addToCart('Grapes', 2.49)">Add to Cart</button>
+    </section>
+    <section class="product">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <h2>Strawberry</h2>
+      <p>Delicious strawberries, great for desserts.</p>
+      <p>$3.99 per lb</p>
+      <button onclick="addToCart('Strawberry', 3.99)">Add to Cart</button>
+    </section>
+    <section class="product">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <h2>Pineapple</h2>
+      <p>Fresh pineapple chunks, tropical goodness.</p>
+      <p>$2.99 each</p>
+      <button onclick="addToCart('Pineapple', 2.99)">Add to Cart</button>
+    </section>
+    <section class="product">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <h2>Mango</h2>
+      <p>Ripe mangoes, sweet and delicious.</p>
+      <p>$1.79 each</p>
+      <button onclick="addToCart('Mango', 1.79)">Add to Cart</button>
+    </section>
+    <section class="product">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <h2>Watermelon</h2>
+      <p>Refreshing watermelon slices, perfect for summer.</p>
+      <p>$0.99 per lb</p>
+      <button onclick="addToCart('Watermelon', 0.99)">Add to Cart</button>
+    </section>
+    <section class="product">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <h2>Pear</h2>
+      <p>Delightful pears, great for snacking or salads.</p>
+      <p>$1.29 each</p>
+      <button onclick="addToCart('Pear', 1.29)">Add to Cart</button>
+    </section>
+    <!-- Additional vegetable items -->
+    <section class="product">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <h2>Tomato</h2>
+      <p>Red, ripe tomatoes, great for salads or cooking.</p>
+      <p>$0.99 per lb</p>
+      <button onclick="addToCart('Tomato', 0.99)">Add to Cart</button>
+    </section>
+    <section class="product">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <h2>Spinach</h2>
+      <p>Fresh spinach leaves, packed with nutrients.</p>
+      <p>$1.49 per lb</p>
+      <button onclick="addToCart('Spinach', 1.49)">Add to Cart</button>
+    </section>
+    <section class="product">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <h2>Broccoli</h2>
+      <p>Fresh broccoli, versatile and healthy.</p>
+      <p>$1.29 per lb</p>
+      <button onclick="addToCart('Broccoli', 1.29)">Add to Cart</button>
+    </section>
+    <section class="product">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <h2>Cucumber</h2>
+      <p>Crunchy cucumbers, great for salads or snacks.</p>
+      <p>$0.79 each</p>
+      <button onclick="addToCart('Cucumber', 0.79)">Add to Cart</button>
+    </section>
+    <section class="product">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <h2>Onion</h2>
+      <p>Fresh onions, essential for cooking.</p>
+      <p>$0.69 per lb</p>
+      <button onclick="addToCart('Onion', 0.69)">Add to Cart</button>
+    </section>
+    <section class="product">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <h2>Potato</h2>
+      <p>Versatile potatoes, perfect for many dishes.</p>
+      <p>$0.49 per lb</p>
+      <button onclick="addToCart('Potato', 0.49)">Add to Cart</button>
+    </section>
+    <section class="product">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <h2>Green Beans</h2>
+      <p>Crunchy green beans, great as a side dish.</p>
+      <p>$1.29 per lb</p>
+      <button onclick="addToCart('Green Beans', 1.29)">Add to Cart</button>
+    </section>
+    <section class="product">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <h2>Bell Pepper</h2>
+      <p>Colorful bell peppers, adds flavor to any dish.</p>
+      <p>$0.99 each</p>
+      <button onclick="addToCart('Bell Pepper', 0.99)">Add to Cart</button>
+    </section>
+    <section class="product">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <h2>Eggplant</h2>
+      <p>Fresh eggplants, great for grilling or roasting.</p>
+      <p>$1.59 each</p>
+      <button onclick="addToCart('Eggplant', 1.59)">Add to Cart</button>
+    </section>
+    <section class="product">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <h2>Cauliflower</h2>
+      <p>Fresh cauliflower, versatile and nutritious.</p>
+      <p>$1.79 each</p>
+      <button onclick="addToCart('Cauliflower', 1.79)">Add to Cart</button>
+    </section>
+    <!-- Additional grocery items -->
+    <!-- Chocolates -->
+    <section class="product">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <h2>Milk Chocolate</h2>
+      <p>Smooth and creamy milk chocolate.</p>
+      <p>$1.99 per bar</p>
+      <button onclick="addToCart('Milk Chocolate', 1.99)">Add to Cart</button>
+    </section>
+    <section class="product">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <h2>Dark Chocolate</h2>
+      <p>Rich and indulgent dark chocolate.</p>
+      <p>$2.49 per bar</p>
+      <button onclick="addToCart('Dark Chocolate', 2.49)">Add to Cart</button>
+    </section>
+    <section class="product">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <h2>White Chocolate</h2>
+      <p>Creamy and sweet white chocolate.</p>
+      <p>$1.79 per bar</p>
+      <button onclick="addToCart('White Chocolate', 1.79)">Add to Cart</button>
+    </section>
+    <section class="product">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <h2>Hazelnut Chocolate</h2>
+      <p>Crunchy hazelnuts in smooth chocolate.</p>
+      <p>$2.99 per bar</p>
+      <button onclick="addToCart('Hazelnut Chocolate', 2.99)">Add to Cart</button>
+    </section>
+    <section class="product">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <h2>Assorted Chocolates</h2>
+      <p>A variety of chocolates for everyone.</p>
+      <p>$3.49 per box</p>
+      <button onclick="addToCart('Assorted Chocolates', 3.49)">Add to Cart</button>
+    </section>
+    <!-- Soft Drinks -->
+    <section class="product">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <h2>Coca-Cola</h2>
+      <p>Classic Coca-Cola, refreshing and delicious.</p>
+      <p>$1.29 per can</p>
+      <button onclick="addToCart('Coca-Cola', 1.29)">Add to Cart</button>
+    </section>
+    <section class="product">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <h2>Pepsi</h2>
+      <p>Refreshing Pepsi, perfect for any occasion.</p>
+      <p>$1.19 per can</p>
+      <button onclick="addToCart('Pepsi', 1.19)">Add to Cart</button>
+    </section>
+    <section class="product">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <h2>Sprite</h2>
+      <p>Sprite, the lemon-lime flavored soft drink.</p>
+      <p>$1.09 per can</p>
+      <button onclick="addToCart('Sprite', 1.09)">Add to Cart</button>
+    </section>
+    <section class="product">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <h2>Fanta</h2>
+      <p>Fanta, fruity and refreshing.</p>
+      <p>$1.29 per can</p>
+      <button onclick="addToCart('Fanta', 1.29)">Add to Cart</button>
+    </section>
+    <section class="product">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <h2>Dr. Pepper</h2>
+      <p>Dr. Pepper, the unique blend of 23 flavors.</p>
+      <p>$1.39 per can</p>
+      <button onclick="addToCart('Dr. Pepper', 1.39)">Add to Cart</button>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Online Grocery Store - @Bharat_Kuchibhatla</p>
+  </footer>
+
+  <!-- Connect to the cart page -->
+  <script>
+    // Function to add items to the cart
+    function addToCart(productName, price) {
+      // Store product details in local storage
+      const item = { name: productName, price: price };
+      let cart = JSON.parse(localStorage.getItem('cart')) || [];
+      cart.push(item);
+      localStorage.setItem('cart', JSON.stringify(cart));
+      
+      // Redirect to the cart page
+      window.location.href = 'cart.html';
+    }
+  </script>
+</body>
+</html>
